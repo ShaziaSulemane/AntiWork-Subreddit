@@ -1,0 +1,24 @@
+Subreddit: \r\antiwork
+Student Nr: a22207399
+Collected from 2020-03-01 to 2023-03-01
+
+03/22/2023 11:26:38: Number of JSON files: 20
+03/22/2023 11:26:38: Total number of JSON Posts Collected: 38604 (87%)
+03/22/2023 11:26:38: Number of comments Collected: 826894
+
+03/22/2023 11:35:35: Number of JSON files: 20
+03/22/2023 11:35:35: Total number of JSON Posts Collected: 38604 (87%)
+03/22/2023 11:35:35: Number of comments Collected: 826894
+
+03/22/2023 11:45:23: Number of JSON files: 20
+03/22/2023 11:45:23: Total number of JSON Posts Collected: 38604 (87%)
+03/22/2023 11:45:23: Number of comments Collected: 826894
+
+03/22/2023 11:52:45: Number of JSON files: 20
+03/22/2023 11:52:45: Total number of JSON Posts Collected: 38604 (87%)
+03/22/2023 11:52:45: Number of comments Collected: 826894
+
+03/22/2023 21:21:42: Number of JSON files: 21
+03/22/2023 21:21:42: Total number of JSON Posts Collected: 44277 (100%)
+03/22/2023 21:21:42: Number of comments Collected: 947986
+

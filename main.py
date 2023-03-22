@@ -6,6 +6,8 @@ import praw
 from pushshift_py import PushshiftAPI
 from tqdm import tqdm
 
+import pandas as pd
+
 # https://pypi.org/project/pushshift.py/
 
 CLIENT_ID = 'bMzGtUxCuPs6LeXUAqEFrA'
@@ -28,14 +30,12 @@ reddit = praw.Reddit(
 
 api = PushshiftAPI(reddit)
 
-import pandas as pd
 
 # read the csv file into a pandas dataframe
 df = pd.read_csv('aw_submissions.csv')
 posts = []
 # extract the 'id' column as a list
 id_list = df['id'].tolist()
-id_list = id_list[(3348+2326+536+344+3302+1891+4111+139+514+689+1922+1055+3648+2976+5771+1648+833+1875+1509+149):]
 
 start_time = time.time()
 for submission_id in tqdm(id_list):
@@ -66,6 +66,6 @@ for submission_id in tqdm(id_list):
         "created": post.created,
         "comments": comments
     })
-    with open("submissions_20.json", "w") as f:
+    with open("submissions.json", "w") as f:
         json.dump(posts, f)
         f.close()

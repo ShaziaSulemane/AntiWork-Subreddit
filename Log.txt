@@ -1,0 +1,8 @@
+03/22/2023 11:03:07: Number of JSON files: 20
+03/22/2023 11:03:07: Total number of JSON Posts: 38604
+03/22/2023 11:03:07:Number of comments: 826894
+
+03/22/2023 11:03:21: Number of JSON files: 20
+03/22/2023 11:03:21: Total number of JSON Posts: 38604
+03/22/2023 11:03:21:Number of comments: 826894
+

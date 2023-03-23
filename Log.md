@@ -1,5 +1,5 @@
-Subreddit: \r\antiwork
-Student Nr: a22207399
+Subreddit: \r\antiwork \
+Student Nr: a22207399 \
 Collected from 2020-03-01 to 2023-03-01
 
 03/22/2023 11:26:38: Number of JSON files: 20 \
@@ -21,4 +21,9 @@ Collected from 2020-03-01 to 2023-03-01
 03/22/2023 21:21:42: Number of JSON files: 21 \
 03/22/2023 21:21:42: Total number of JSON Posts Collected: 44277 (100%) \
 03/22/2023 21:21:42: Number of comments Collected: 947986
+
+03/23/2023 09:46:50: Number of JSON files: 21 \
+03/23/2023 09:46:50: Total number of JSON Posts Collected: 44277 (100%) \
+03/23/2023 09:46:50: Number of comments Collected: 947986
+
 

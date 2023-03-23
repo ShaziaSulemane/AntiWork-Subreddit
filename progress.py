@@ -63,7 +63,7 @@ date_time = now.strftime("%m/%d/%Y %H:%M:%S")
 
 # write the log file
 with open('Log.md', 'a') as log_file:
-    log_file.write(f'{date_time}: Number of JSON files: {num_files}\n \\')
-    log_file.write(f'{date_time}: Total number of JSON Posts Collected: {total_objects} ({progress}%)\n \\')
+    log_file.write(f'{date_time}: Number of JSON files: {num_files} \n')
+    log_file.write(f'{date_time}: Total number of JSON Posts Collected: {total_objects} ({progress}%)\n')
     log_file.write(f"{date_time}: Number of comments Collected: {comment_count}\n")
     log_file.write("\n")

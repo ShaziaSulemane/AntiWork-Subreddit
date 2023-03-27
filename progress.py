@@ -5,7 +5,7 @@ import csv
 import pytz
 
 # set the path to your directory containing the JSON files
-path = 'submission_threads'
+path = 'aw_threads'
 csv_file = "csv_posts/aw_submissions.csv"
 # create a list of all JSON files in the directory
 json_files = [pos_json for pos_json in os.listdir(path) if pos_json.endswith('.json')]
@@ -62,7 +62,7 @@ now = datetime.now()
 date_time = now.strftime("%m/%d/%Y %H:%M:%S")
 
 # write the log file
-with open('Log.md', 'a') as log_file:
+with open('Logs/Log.txt', 'a') as log_file:
     log_file.write(f'{date_time}: Number of JSON files: {num_files} \n')
     log_file.write(f'{date_time}: Total number of JSON Posts Collected: {total_objects} ({progress}%)\n')
     log_file.write(f"{date_time}: Number of comments Collected: {comment_count}\n")
